@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class CameraFollow : PlayerController
@@ -28,4 +29,5 @@ public class CameraFollow : PlayerController
         pos.y = target.position.y + offsetY;
         transform.position = pos;
     }
+
 }
